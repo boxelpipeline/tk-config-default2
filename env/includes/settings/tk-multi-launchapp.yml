@@ -16,15 +16,16 @@ includes:
 
 ################################################################################
 
-# auto discover DCCs for launch
+# auto discover DCCs for launch - disabled: this config only serves the web
+# action menu, real DCC work always goes through a project's own config
 settings.tk-multi-launchapp:
-  use_software_entity: true
+  use_software_entity: false
   hook_before_register_command: "{config}/tk-multi-launchapp/before_register_command.py"
   location: "@apps.tk-multi-launchapp.location"
 
 # shotgun
 settings.tk-multi-launchapp.shotgun:
-  use_software_entity: true
+  use_software_entity: false
   skip_engine_instances: ["tk-nukestudio"]
   hook_before_register_command: "{config}/tk-multi-launchapp/before_register_command.py"
   location: "@apps.tk-multi-launchapp.location"
