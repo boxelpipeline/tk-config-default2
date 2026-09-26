@@ -12,6 +12,7 @@
 ################################################################################
 
 includes:
+- ../app_locations.yml
 - ../engine_locations.yml
 - ./tk-multi-launchapp.yml
 - ./tk-multi-publish2.yml
@@ -53,6 +54,8 @@ settings.tk-shotgun.project:
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
     tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
+    bxl-slack-manager:
+      location: "@apps.bxl-slack-manager.location"
   location: "@engines.tk-shotgun.location"
 
 # publishedfile

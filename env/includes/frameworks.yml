@@ -38,7 +38,7 @@ frameworks:
   tk-framework-desktopserver_v1.x.x:
     location:
       #version: v1.8.456-test1
-      version: v1.8.1.4
+      version: v1.8.7.2
       type: app_store
       name: tk-framework-desktopserver
   tk-framework-qtwidgets_v2.x.x:
@@ -81,3 +81,8 @@ frameworks:
       version: v1.1.0
       type: app_store
       name: tk-framework-lmv
+  tk-framework-hermes_v1.x.x:
+    location:
+      name: tk-framework-hermes
+      version: v1.2.0
+      type: app_store

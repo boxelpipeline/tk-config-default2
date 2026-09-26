@@ -36,6 +36,8 @@ settings.tk-desktop.project:
     tk-multi-launchapp: "@settings.tk-multi-launchapp"
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
+    bxl-slack-manager:
+      location: "@apps.bxl-slack-manager.location"
   groups:
   - matches:
     - "*Fla*"
