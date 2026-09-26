@@ -60,18 +60,10 @@ apps.tk-multi-devutils.location:
   type: app_store
   name: tk-multi-devutils
   version: v1.3.3
-apps.tk-shotgun-folders.location:
-  type: app_store
-  name: tk-shotgun-folders
-  version: v0.4.1
 apps.tk-shotgun-launchfolder.location:
   type: app_store
   name: tk-shotgun-launchfolder
   version: v0.4.1
-apps.tk-shotgun-launchpublish.location:
-  type: app_store
-  name: tk-shotgun-launchpublish
-  version: v0.7.2
 apps.bxl-slack-manager.location:
   name: bxl-slack-manager
   type: app_store
