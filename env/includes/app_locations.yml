@@ -67,5 +67,5 @@ apps.tk-shotgun-launchfolder.location:
 apps.bxl-slack-manager.location:
   name: bxl-slack-manager
   type: app_store
-  version: v1.0.2
+  version: v1.0.3
 frameworks: '@frameworks'
