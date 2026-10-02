@@ -55,5 +55,5 @@ apps.tk-multi-workfiles2.location:
 apps.bxl-slack-manager.location:
   name: bxl-slack-manager
   type: app_store
-  version: v1.0.3
+  version: v1.1.0
 frameworks: '@frameworks'
