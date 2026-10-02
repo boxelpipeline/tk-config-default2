@@ -14,20 +14,17 @@
 includes:
 - ../app_locations.yml
 - ../engine_locations.yml
-- ./tk-shotgun-launchfolder.yml
 
 ################################################################################
 
 # asset
 settings.tk-shotgun.asset:
   apps:
-    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # asset_step
 settings.tk-shotgun.asset_step:
   apps:
-    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # playlist
@@ -38,7 +35,6 @@ settings.tk-shotgun.playlist:
 # project
 settings.tk-shotgun.project:
   apps:
-    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
     bxl-slack-manager:
       location: "@apps.bxl-slack-manager.location"
   location: "@engines.tk-shotgun.location"
@@ -46,25 +42,21 @@ settings.tk-shotgun.project:
 # publishedfile
 settings.tk-shotgun.publishedfile:
   apps:
-    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # sequence
 settings.tk-shotgun.sequence:
   apps:
-    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # shot
 settings.tk-shotgun.shot:
   apps:
-    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # shot_step
 settings.tk-shotgun.shot_step:
   apps:
-    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # version

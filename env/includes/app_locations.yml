@@ -32,10 +32,6 @@ apps.tk-multi-publish2.location:
   type: app_store
   name: tk-multi-publish2
   version: v2.11.1
-apps.tk-multi-pythonconsole.location:
-  type: app_store
-  name: tk-multi-pythonconsole
-  version: v1.4.3
 apps.tk-multi-reviewsubmission.location:
   type: app_store
   name: tk-multi-reviewsubmission
@@ -56,14 +52,6 @@ apps.tk-multi-workfiles2.location:
   type: app_store
   name: tk-multi-workfiles2
   version: v0.18.0
-apps.tk-multi-devutils.location:
-  type: app_store
-  name: tk-multi-devutils
-  version: v1.3.3
-apps.tk-shotgun-launchfolder.location:
-  type: app_store
-  name: tk-shotgun-launchfolder
-  version: v0.4.1
 apps.bxl-slack-manager.location:
   name: bxl-slack-manager
   type: app_store
