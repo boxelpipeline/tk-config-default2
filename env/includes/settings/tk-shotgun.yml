@@ -37,6 +37,8 @@ settings.tk-shotgun.project:
   apps:
     bxl-slack-manager:
       location: "@apps.bxl-slack-manager.location"
+    bxl-auto-playlist-manager:
+      location: "@apps.bxl-auto-playlist-manager.location"
   location: "@engines.tk-shotgun.location"
 
 # publishedfile

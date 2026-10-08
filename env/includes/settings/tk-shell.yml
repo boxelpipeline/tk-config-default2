@@ -14,62 +14,15 @@
 includes:
 - ../app_locations.yml
 - ../engine_locations.yml
-- ./tk-multi-launchapp.yml
-- ./tk-multi-publish2.yml
-- ./tk-multi-screeningroom.yml
 
 ################################################################################
 
-# asset
-settings.tk-shell.asset:
-  apps:
-    tk-multi-launchapp: '@settings.tk-multi-launchapp'
-    tk-multi-launchmari: '@settings.tk-multi-launchapp.mari'
-    tk-multi-launchmotionbuilder: '@settings.tk-multi-launchapp.motionbuilder'
-    tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
-    tk-multi-screeningroom: '@settings.tk-multi-screeningroom.rv'
-  location: '@engines.tk-shell.location'
-
-# asset_step
-settings.tk-shell.asset_step:
-  apps:
-    tk-multi-launchapp: '@settings.tk-multi-launchapp'
-    tk-multi-launchmari: '@settings.tk-multi-launchapp.mari'
-    tk-multi-launchmotionbuilder: '@settings.tk-multi-launchapp.motionbuilder'
-    tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
-    tk-multi-screeningroom: '@settings.tk-multi-screeningroom.rv'
-  location: '@engines.tk-shell.location'
-
-# project
+# project - the only environment that loads tk-shell (see env/project.yml);
+# every other environment only loads tk-shotgun.
 settings.tk-shell.project:
   apps:
     bxl-slack-manager:
       location: "@apps.bxl-slack-manager.location"
-  location: '@engines.tk-shell.location'
-
-# sequence
-settings.tk-shell.sequence:
-  apps:
-    tk-multi-launchapp: '@settings.tk-multi-launchapp'
-    tk-multi-launchmotionbuilder: '@settings.tk-multi-launchapp.motionbuilder'
-    tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
-    tk-multi-screeningroom: '@settings.tk-multi-screeningroom.rv'
-  location: '@engines.tk-shell.location'
-
-# shot
-settings.tk-shell.shot:
-  apps:
-    tk-multi-launchapp: '@settings.tk-multi-launchapp'
-    tk-multi-launchmotionbuilder: '@settings.tk-multi-launchapp.motionbuilder'
-    tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
-    tk-multi-screeningroom: '@settings.tk-multi-screeningroom.rv'
-  location: '@engines.tk-shell.location'
-
-# shot_step
-settings.tk-shell.shot_step:
-  apps:
-    tk-multi-launchapp: '@settings.tk-multi-launchapp'
-    tk-multi-launchmotionbuilder: '@settings.tk-multi-launchapp.motionbuilder'
-    tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
-    tk-multi-screeningroom: '@settings.tk-multi-screeningroom.rv'
+    bxl-auto-playlist-manager:
+      location: "@apps.bxl-auto-playlist-manager.location"
   location: '@engines.tk-shell.location'
