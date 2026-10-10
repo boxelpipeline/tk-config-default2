@@ -39,7 +39,6 @@ frameworks:
   tk-framework-desktopserver_v1.x.x:
     location:
       name: tk-framework-desktopserver
-      # version: v1.8.456-test1
       version: v1.8.7.2
       type: app_store
 
@@ -83,8 +82,13 @@ frameworks:
       version: v1.1.0
       type: app_store
       name: tk-framework-lmv
+  tk-framework-pythonModules:
+    location:
+      name: tk-framework-pythonModules
+      version: v1.1.7
+      type: app_store
   tk-framework-hermes_v1.x.x:
     location:
       name: tk-framework-hermes
-      version: v1.2.0
+      version: v1.3.0
       type: app_store

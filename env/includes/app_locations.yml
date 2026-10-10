@@ -17,29 +17,6 @@ includes:
 ################################################################################
 # location descriptors for apps used in this configuration
 
-# ---- Multi apps
-
-# about
-apps.tk-multi-data-validation.location:
-  type: app_store
-  name: tk-multi-data-validation
-  version: v0.3.3
-apps.tk-multi-reviewsubmission.location:
-  type: app_store
-  name: tk-multi-reviewsubmission
-  version: v1.3.1
-apps.tk-multi-shotgunpanel.location:
-  type: app_store
-  name: tk-multi-shotgunpanel
-  version: v1.9.2
-apps.tk-multi-snapshot.location:
-  type: app_store
-  name: tk-multi-snapshot
-  version: v0.10.3
-apps.tk-multi-workfiles2.location:
-  type: app_store
-  name: tk-multi-workfiles2
-  version: v0.18.0
 apps.bxl-slack-manager.location:
   name: bxl-slack-manager
   type: app_store
@@ -47,5 +24,5 @@ apps.bxl-slack-manager.location:
 apps.bxl-auto-playlist-manager.location:
   name: bxl-auto-playlist-manager
   type: app_store
-  version: v0.0.1
+  version: v0.1.0
 frameworks: '@frameworks'
