@@ -20,10 +20,19 @@ includes:
 # site
 settings.tk-desktop.site:
   apps:
+    tk-desktop-workload:
+      location: "@apps.tk-desktop-workload.location"
   location: "@engines.tk-desktop.location"
 
 
 # project
 settings.tk-desktop.project:
   apps:
+    tk-desktop-workload:
+      location: "@apps.tk-desktop-workload.location"
+    bxl-slack-manager:
+      location: "@apps.bxl-slack-manager.location"
+    bxl-auto-playlist-manager:
+      location: "@apps.bxl-auto-playlist-manager.location"
+  default_group: "Production Tools"
   location: "@engines.tk-desktop.location"

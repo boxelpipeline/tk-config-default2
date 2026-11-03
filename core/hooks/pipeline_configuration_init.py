@@ -32,6 +32,11 @@ _KNOWN_WARNINGS = {
     # official App Store, which doesn't know the bundle.
     "sgtk.core.descriptor.io_descriptor.appstore": (
         "Could not write app store download receipt"),
+    # tk-desktop's project (proxy) process doesn't implement panels, so
+    # tk-core falls back to a modeless dialog - logged every time the
+    # Python Console (a panel app) is opened. Works the same either way.
+    "sgtk.env.project.tk-desktop": (
+        "Panel functionality not implemented"),
 }
 
 
