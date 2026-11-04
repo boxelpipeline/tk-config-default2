@@ -35,5 +35,15 @@ apps.tk-desktop-workload.location:
   version: v0.2.1
   # type: dev
   # path: "~/Documents/shotgrid/apps/tk-desktop-workload"
+apps.tk-app-janus.location:
+  name: tk-app-janus
+  type: app_store
+  version: v1.7.0
+  # type: dev
+  # path: "~/Documents/shotgrid/apps/tk-app-janus"
+apps.tk-shotgun-launchfolder.location:
+  name: tk-shotgun-launchfolder
+  type: app_store
+  version: v0.4.0
 
 frameworks: '@frameworks'

@@ -14,6 +14,7 @@
 includes:
 - ../app_locations.yml
 - ../engine_locations.yml
+- ./tk-shotgun-launchfolder.yml
 
 ################################################################################
 
@@ -39,11 +40,13 @@ settings.tk-shotgun.project:
       location: "@apps.bxl-slack-manager.location"
     bxl-auto-playlist-manager:
       location: "@apps.bxl-auto-playlist-manager.location"
+    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # publishedfile
 settings.tk-shotgun.publishedfile:
   apps:
+    tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
   location: "@engines.tk-shotgun.location"
 
 # sequence

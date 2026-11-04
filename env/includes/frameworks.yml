@@ -94,3 +94,8 @@ frameworks:
       type: app_store
       # type: dev
       # path: "~/Documents/shotgrid/frameworks/tk-framework-hermes"
+  tk-framework-transfer_v0.x.x:
+    location:
+      name: tk-framework-transfer
+      version: v0.0.13
+      type: app_store

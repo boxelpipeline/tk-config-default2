@@ -1,0 +1,42 @@
+#
+# Copyright (c) 2026 Boxel Studio.
+#
+
+################################################################################
+
+includes:
+- ../app_locations.yml
+
+################################################################################
+
+# Vendors only. It used to come from their per-project "Vendors"
+# pipeline configs, and every internal project config already ships
+# its own, so every non-vendor permission group is denied here to
+# avoid a duplicate "Show in File System" in the web menu. The vendor
+# groups left out are: Vendor, Vendor Backup, Vendor-ADSK-24686898.
+settings.tk-shotgun-launchfolder:
+  deny_permissions:
+  - Admin
+  - Manager
+  - Artist
+  - Artist Backup
+  - Artist Custom Rule
+  - Artist Manager
+  - Client
+  - Client Restricted
+  - Client Restricted MWS
+  - Client Restricted Plus
+  - Client Restricted THP
+  - Client Restricted THP Copy 25623152
+  - Coordinator
+  - Exec
+  - Freelance
+  - HR
+  - Lead
+  - Producer
+  - Producer - Task Templates
+  - QC
+  - Supervisor
+  - Supervisor Special
+  deny_platforms: []
+  location: "@apps.tk-shotgun-launchfolder.location"
