@@ -22,14 +22,17 @@ settings.tk-desktop.site:
   apps:
     tk-desktop-workload:
       location: "@apps.tk-desktop-workload.location"
+  # The "Boxel" tab opens Workload in Desktop's own process: it stays
+  # open across project / pipeline configuration switches.
+  run_at_startup:
+  - {app_instance: "", name: Apps}
+  - {app_instance: tk-desktop-workload, name: Boxel}
   location: "@engines.tk-desktop.location"
 
 
 # project
 settings.tk-desktop.project:
   apps:
-    tk-desktop-workload:
-      location: "@apps.tk-desktop-workload.location"
     bxl-slack-manager:
       location: "@apps.bxl-slack-manager.location"
     bxl-auto-playlist-manager:
