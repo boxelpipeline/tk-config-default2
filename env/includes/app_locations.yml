@@ -20,19 +20,19 @@ includes:
 apps.bxl-slack-manager.location:
   name: bxl-slack-manager
   type: app_store
-  version: v1.3.0
+  version: v1.3.1
   # type: dev
   # path: "~/Documents/shotgrid/apps/bxl-slack-manager"
 apps.bxl-auto-playlist-manager.location:
   name: bxl-auto-playlist-manager
   type: app_store
-  version: v0.2.1
+  version: v0.2.2
   # type: dev
   # path: "~/Documents/shotgrid/apps/bxl-auto-playlist-manager"
 apps.tk-desktop-workload.location:
   name: tk-desktop-workload
   type: app_store
-  version: v0.2.0
+  version: v0.2.1
   # type: dev
   # path: "~/Documents/shotgrid/apps/tk-desktop-workload"
 
