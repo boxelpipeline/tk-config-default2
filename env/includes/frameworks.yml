@@ -99,3 +99,5 @@ frameworks:
       name: tk-framework-transfer
       version: v0.0.13
       type: app_store
+    sg.config_filters:
+    - [code, is, tk-framework-transfer]
