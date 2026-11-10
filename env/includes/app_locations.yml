@@ -32,7 +32,7 @@ apps.bxl-auto-playlist-manager.location:
 apps.tk-desktop-workload.location:
   name: tk-desktop-workload
   type: app_store
-  version: v0.5.4
+  version: v0.5.5
   # type: dev
   # path: "~/Documents/shotgrid/apps/tk-desktop-workload"
 apps.tk-app-janus.location:
