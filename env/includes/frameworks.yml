@@ -90,7 +90,7 @@ frameworks:
   tk-framework-hermes_v1.x.x:
     location:
       name: tk-framework-hermes
-      version: v1.3.3
+      version: v1.4.0
       type: app_store
       # type: dev
       # path: "~/Documents/shotgrid/frameworks/tk-framework-hermes"
